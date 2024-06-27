@@ -1,5 +1,11 @@
 # Changelog
 
+## \[0.28.2]
+
+- [`e67cf1b2`](https://github.com/tauri-apps/tao/commit/e67cf1b2826d32b8eb58f6d111271a1c42b62978) ([#941](https://github.com/tauri-apps/tao/pull/941) by [@Sanae6](https://github.com/tauri-apps/tao/../../Sanae6)) Prevent duplicate mouse press, release, and motion events from firing on Linux (fixes #939)
+- [`f54cc11e`](https://github.com/tauri-apps/tao/commit/f54cc11e4441a706a276c05f0e65f48a69f779bd) ([#938](https://github.com/tauri-apps/tao/pull/938) by [@andrewbaxter](https://github.com/tauri-apps/tao/../../andrewbaxter)) Add `EventLoopWindowTargetExtUnix::gtk_app` getter.
+- [`f54cc11e`](https://github.com/tauri-apps/tao/commit/f54cc11e4441a706a276c05f0e65f48a69f779bd) ([#938](https://github.com/tauri-apps/tao/pull/938) by [@andrewbaxter](https://github.com/tauri-apps/tao/../../andrewbaxter)) Add `WindowExtUnix::new_from_gtk_window`.
+
 ## \[0.28.1]
 
 - [`7e8f75e9`](https://github.com/tauri-apps/tao/commit/7e8f75e916ad502e00b5f6dff6cfb6bfadb92118) ([#926](https://github.com/tauri-apps/tao/pull/926) by [@pewsheen](https://github.com/tauri-apps/tao/../../pewsheen)) On macOS, add `set_fullsize_content_view` and `set_titlebar_transparent` to `Window` to set the title bar style.
